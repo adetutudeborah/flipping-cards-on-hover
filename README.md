@@ -17,7 +17,7 @@ The purpose of this project is to showcase how to design a CSS card flip animati
 
 # Links
 
-- [Live site URL](https://scissor-landing-page.netlify.app/)
+- [Live site URL](https://flipping-cards-on-hover.vercel.app/)
 - [Technical article]()
 
 # My process
