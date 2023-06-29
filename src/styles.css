@@ -11,9 +11,6 @@
     font-family: 'Inter', sans-serif;
     background-color: #23252C; 
     color: #ffff;
-
-    /* background-color: #FFFFFF;
-    color: #000; */
  } 
 
  ul,
@@ -207,8 +204,6 @@
 
 .card-subtitle {
    font-size: 1.4rem;
-   line-height: 1.8;
-   text-align: center;
    padding: 0 10rem;
 }
 
@@ -239,8 +234,6 @@
  
  .card-subtitle {
     font-size: 1.4rem;
-    line-height: 1.8;
-    text-align: center;
     padding: 0 6rem;
  }
 
@@ -267,8 +260,6 @@
     
 .card-subtitle {
    font-size: 1.2rem;
-   line-height: 1.8;
-   text-align: center;
    padding: 0 3rem;
 }
    
