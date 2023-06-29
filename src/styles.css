@@ -202,3 +202,85 @@
  .social-icon:hover{
    color: #FFFFFF;
  }
+
+@media screen and (max-width: 1200px) { 
+
+.card-subtitle {
+   font-size: 1.4rem;
+   line-height: 1.8;
+   text-align: center;
+   padding: 0 10rem;
+}
+
+.flipping-cards {
+   margin-bottom: 5rem;
+   width: 100%;
+   max-width: 700px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: 1fr;
+   grid-column-gap: 60px;
+   grid-row-gap: 30px;
+}
+
+.third-profile-card {
+   justify-items: center;
+   align-items: center;
+}
+}
+
+@media screen and (max-width: 700px) { 
+
+.card-title {
+   font-size: 3rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+ }
+ 
+ .card-subtitle {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    text-align: center;
+    padding: 0 6rem;
+ }
+
+ .flipping-cards {
+   margin-bottom: 5rem;
+   width: 100%;
+   max-width: 300px;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: repeat(3, 1fr);
+   grid-column-gap: 60px;
+   grid-row-gap: 30px;
+ }
+ 
+ }
+
+ @media screen and (max-width: 400px) { 
+
+.card-title {
+   font-size: 3rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+}
+    
+.card-subtitle {
+   font-size: 1.2rem;
+   line-height: 1.8;
+   text-align: center;
+   padding: 0 3rem;
+}
+   
+.flipping-cards {
+   margin-bottom: 5rem;
+   width: 100%;
+   max-width: 320px;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: repeat(3, 1fr);
+   grid-column-gap: 60px;
+   grid-row-gap: 30px;
+}
+    
+}
